@@ -1,4 +1,5 @@
-FROM redhat/ubi8:8.5-236
+ARG IMAGE_BASE=redhat/ubi8:8.5-236
+FROM ${IMAGE_BASE}
 
 LABEL version="24.1.1.0"
 LABEL description="TOTVS DBAccess" 
