@@ -19,7 +19,6 @@ readonly DOCKER_TAG="${DOCKER_USER}/${DBACCESS_IMAGE_NAME}:${DBACCESS_VERSION}"
 
 docker run --rm \
     --name "${DBACCESS_IMAGE_NAME}" \
-    -p 1234:1234 \
-    -p 1235:1235 \
-    -p 8080:8080 \
+    -p 7890:7890 \
+    -p 7891:7891 \
     "${DOCKER_TAG}"
