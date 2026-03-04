@@ -1,0 +1,19 @@
+**/temp/
+**/temp/
+
+# Ignora tudo dentro das pastas
+packages/**
+totvs/dbaccess/**
+
+# Permite versionar a estrutura (diretórios)
+!totvs/dbaccess/
+
+# Permite os arquivos sentinela
+!.gitkeep
+
+# Gemini CLI
+GEMINI.md
+.geminiignore
+
+# AmazonQ CLI
+.amazonq/rules/memory-bank/project-memory.md

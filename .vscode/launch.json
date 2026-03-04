@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug",
+            "cwd": "${workspaceFolder}",
+            "program": "${file}",
+            "args": [
+                "${input:scriptArgs1}",
+                "${input:scriptArgs2}"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "scriptArgs1",
+            "type": "promptString",
+            "description": "Digite os argumentos do script",
+            "default": ""
+        },
+        {
+            "id": "scriptArgs2",
+            "type": "promptString",
+            "description": "Digite os argumentos do script",
+            "default": ""
+        }
+    ],
+    "version": "2.0.0"
+}
