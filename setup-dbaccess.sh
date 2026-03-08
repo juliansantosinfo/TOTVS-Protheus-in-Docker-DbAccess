@@ -15,7 +15,7 @@ if [[ "${DEBUG_SCRIPT:-}" =~ ^(true|1|yes|y)$ ]]; then
     set -x
 fi
 
-title="TOTVS DBAccess 23.1.1.4"
+title="TOTVS DBAccess 23.1.1.7"
 prog="dbaccess64"
 pathbin="/totvs/dbaccess/multi"
 progbin="${pathbin}/${prog}"
