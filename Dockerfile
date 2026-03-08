@@ -2,7 +2,7 @@ ARG IMAGE_BASE=redhat/ubi8:8.5-236
 # hadolint ignore=DL3006
 FROM ${IMAGE_BASE}
 
-LABEL version="24.1.1.0"
+LABEL version="23.1.1.3"
 LABEL description="TOTVS DBAccess" 
 LABEL maintainer="Julian de Almeida Santos <julian.santos.info@gmail.com>"
 
