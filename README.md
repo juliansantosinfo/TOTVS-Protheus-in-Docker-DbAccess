@@ -57,7 +57,7 @@ Baixe o binário do DbAccess e coloque nos diretório `packages/`:
 
 ```txt
 packages/
-├── 25-10-06-TOTVS_DBACCESS_BUILD_24.1.1.0_LINUX_X64.TAR
+├── 25-10-06-TOTVS_DBACCESS_BUILD_23.1.1.7_LINUX_X64.TAR
 ```
 
 **Arquivos necessários:**
@@ -143,7 +143,7 @@ Quando usando uma imagem base customizada que já contém os recursos do Protheu
 ```bash
 # No GitHub Actions, IMAGE_BASE é carregado automaticamente
 # Para build local com imagem customizada:
-export IMAGE_BASE=juliansantosinfo/imagebase:totvs.dbaccess_24.1.1.0
+export IMAGE_BASE=juliansantosinfo/imagebase:totvs.dbaccess_23.1.1.7
 ./build.sh
 ```
 
